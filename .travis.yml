@@ -1,0 +1,26 @@
+sudo: required
+
+dist: trusty
+
+services:
+  - docker
+
+language: node_js
+
+node_js: '9'
+
+env:
+  SKIP_SASS_BINARY_DOWNLOAD_FOR_CI=true
+
+cache: npm
+
+script:
+  - make build
+
+deploy:
+  provider: script
+  script: bash deploy-docker.sh
+  on:
+    branch: master
+
+
