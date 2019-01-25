@@ -2,10 +2,10 @@
 
 set -e
 
-REPO = openpitrix/dashboard-env-slim
+REPO=openpitrix/dashboard-env-slim
 
 echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
 
-docker build -t $REPO:$COMMIT .
+docker build -t $REPO .
 
 docker push $REPO
