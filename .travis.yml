@@ -15,7 +15,7 @@ env:
 cache: npm
 
 script:
-  - make build
+  - set -e && make build
 
 deploy:
   provider: script
