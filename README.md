@@ -1,7 +1,8 @@
 Dashboard slim env
 ===
 
-[![Build Status](https://api.travis-ci.org/openpitrix/dashboard-slim-env.svg)](https://travis-ci.org/openpitrix/dashboard-env-slim)
+[![Build Status](https://api.travis-ci.org/openpitrix/dashboard-env-slim.svg)](https://travis-ci.org/openpitrix/dashboard-env-slim)
+
 
 
 > pre-built: npm@latest, node-sass@latest
