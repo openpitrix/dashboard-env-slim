@@ -1,7 +1,7 @@
-FROM node:9-alpine
+FROM node:8-alpine
 MAINTAINER wangxi <sunnywang@yunify.com>
 
-ENV SASS_BINARY_PATH=/home/linux-node-sass-x64-59_binding.node
+ENV SASS_BINARY_PATH=/home/linux-x64-57_binding.node
 
 WORKDIR /home
 
